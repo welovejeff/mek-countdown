@@ -1,0 +1,53 @@
+#container{
+		-webkit-perspective: 1400px;
+		-webkit-transform-style: preserve-3d;
+}
+#floor{
+	position: absolute;
+	width:1296px;
+	height:864px;
+	background-size: 100% 100%;
+top:00px;
+
+}
+
+
+
+.modal{
+position: absolute;
+}
+#modal1{
+width:676px; height:278px; /* retina */
+left: 58%;
+/*top:70px;*/
+    background-image: url(../img/mekanism-logo.png);
+    background-size: cover;
+    overflow: visible;
+
+}
+}
+.modalSlice{
+z-index: -2;
+content:"";
+	overflow: visible;
+	position: absolute;
+
+}
+.darkSlice{
+z-index: -1;
+content:"";
+	overflow: visible;
+	position: absolute;
+	opacity:0;
+
+}
+.modalMom{
+	position: absolute;
+	top:0px;
+	z-index: 100;
+	height:300px;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+
+
+}
