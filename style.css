@@ -1,23 +1,26 @@
 body {
     font: 13px/1.4 'Helvetica Neue', 'Helvetica','Arial', sans-serif;
-    color: #333;
-    background-image: url(img/CHICAGO_BUILDING.jpg);
+    color: #fff;
+    background-image: url(img/CHICAGO_BUILDING.gif);
     background-repeat: no-repeat;
-    background-size: 1080px;
-    background-position: center top;
+    background-size: 100%;
+    /*background-size: 1080px;*/
+    /*background-position: center top 45px;*/
 }
 .container {
     width: 540px;
     margin: auto;
+    margin-top: 100px;
 }
 h1 {
-    border-bottom: 1px solid #d9d9d9;
+    border-bottom: 1px solid #fff;
 }
 h2{
   position: relative;;
   font-size: 16px;
   font-weight: normal;
   text-transform: uppercase;
+  color: fff;
 }
 h2:before{
   content: '\2192';
@@ -26,7 +29,7 @@ h2:before{
   font-size: 0.9em;
 }
 a {
-    color: #be2221;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -36,7 +39,7 @@ a {
   font-size: 20px;
   background: #27ae60;
   padding: 0.5em 0.7em;
-  color: #ecf0f1;
+  color: #fff;
   margin-bottom: 50px;
   -webkit-transition: background 0.5s ease-out;
   transition: background 0.5s ease-out;
@@ -48,7 +51,7 @@ a {
   cursor: pointer;
 }
 .ended {
-  background: #c0392b;
+  background: #fff;
 }
 .styled{
   margin-bottom: 50px;
@@ -71,7 +74,7 @@ a {
 }
 .styled div span {
   display: block;
-  border-top: 1px solid #cecece;
+  border-top: 1px solid #fff;
   padding-top: 3px;
   font-size: 12px;
   font-weight: normal;
